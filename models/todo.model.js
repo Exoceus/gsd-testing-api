@@ -27,7 +27,10 @@ const todoSchema = new Schema({
     },
     time_left: {
         type: String
-    }
+    },
+    ongoing: {
+        type: Boolean
+    },
 }, {
     timestamps: true,
 });
